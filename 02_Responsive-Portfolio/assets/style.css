@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body {
+    background: #efefef url('hexellence.png');
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545; 
+    line-height: 120%; }
+
+a:link,
+a:active,
+a:visited {
+    text-decoration: none; }
+
+a:hover { color: white; }
+
+.top {
+    background: #232323;
+    margin: 0;  }
+
+.tall {
+    min-height: 275px;
+    padding: 40px; 
+}
+
+img.initials {
+    max-width: 85%;
+    max-height: 85%;
+    object-fit: cover; }
+
+img.initials:nth-child(2) {
+    margin-left: -20px; 
+    margin-top: 40px; 
+}
+
+img.hex {
+   max-width: 85%;
+   max-height: 85%;
+   object-fit: cover;  
+}
+
+.yellow {
+    background: #F5E284; 
+    margin: 0;
+    text-align: center;
+    font: 18px/100% 'Cutive Mono', monospace;
+    color: #232323;
+    text-transform: uppercase; }
+
+.navbar-nav li {
+    margin-right: 80px; 
+    letter-spacing: 2px;
+}
+
+.nopad { padding: 0; }
+
+.chill {
+    background: #BBE9E8;
+    padding: 30px; 
+}
+
+.chill h1 {
+    font: bold 18px/100% 'Cutive Mono', 'Courier New', monospace;
+    color: #BBE9E8;
+    background-color: black;
+    text-align: center;
+    padding: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; }
+
+.chill .card {
+    width: auto; 
+    border: 0;
+    margin-bottom: 0px;
+    margin-top: -7px; 
+    border-radius: 0; }
+
+.card-title { 
+    font: 22px/100% 'Cutive Mono', monospace;
+    text-transform: uppercase; }
+
+.card-subtitle {
+    font-size: 12px; 
+    text-transform: uppercase; }
+
+.card-text { font-size: 14px; }
+
+.card-body .progress {
+    height: 5px;
+    border-radius: 0; 
+    margin-bottom: 10px; 
+    margin-top: -5px; 
+}
+
+.he-content {
+    min-height: 70vh;
+    max-height: 100vh;
+    background: #fafafa; 
+    padding: 30px; 
+}
