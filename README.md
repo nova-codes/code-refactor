@@ -1,4 +1,4 @@
-# nova-codes.github.io
+# code refactor
 
 This repository is a collection of assignments and activities from a coding bootcamp I enrolled in.
 
